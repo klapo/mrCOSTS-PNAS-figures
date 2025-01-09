@@ -4,15 +4,15 @@ This repository contains three notebooks that can be used to recreate the scient
 
 ## Requirements
 
-numpy
-scipy
-matplotlib
-seaborn
-xarray
-pydmd
-cartopy
-netcdf4
-h5netcdf
+- numpy
+- scipy
+- matplotlib
+- seaborn
+- xarray
+- pydmd
+- cartopy
+- netcdf4
+- h5netcdf
 
 You might have to do some trouble shooting. This repository is provided as a demonstration, not a tutorial.
 
@@ -20,4 +20,4 @@ You might have to do some trouble shooting. This repository is provided as a dem
 
 You will need to create a directory called "data" by expanding `data.zip`.
 
-For storing the model results you will need to set up a directory called `results` with a subdirectory for each data type. See the `Directories` heading in the notebooks for an example of the expected structure.
+Next, you will need to actually fit mrCOSTS by setting the `fit` flag to `True` in the desired notebook. After fitting, the model results will be stored and can be analyzed without fitting again by setting `fit` back to `False`. 
