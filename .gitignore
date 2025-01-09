@@ -1,0 +1,17 @@
+/data
+
+# Ignore the model fits (these are large)
+results/HadISST/*
+results/KIT-cube/*
+results/neurology/*
+
+# But keep the directories themselves
+!results/HadISST/
+!results/KIT-cube/
+!results/neurology/
+
+!results/HadISST/.gitkeep
+!results/KIT-cube/.gitkeep
+!results/neurology/.gitkeep
+
+.*checkpoints
